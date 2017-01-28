@@ -14,11 +14,12 @@ El nombre de la aplicación es: Arbol de Villancicos
 
 Objetivo
 ---
-reproducir los villancicos mas conocidos.
+reproducir las canciones de villancicos mas conocidos
 
 Caracteristicas
 ---
-* Música de villancicos (Con opción activar/desactivar).
+* 7 temas de villancicos (Con opción activar/desactivar).
+
 
 Wireframes
 ---
@@ -28,20 +29,20 @@ https://ninjamock.com/Designer/Workplace/4770620
 
 Compatibilidad
 ---
-Esta aplicación es compatible con versiones de Android 4.0.0 o superior.
+Esta aplicación es compatible con versiones de Android 4.0.3 o superior.
 
 Uso
 ---------
 Para probar este ejemplo clona este repositorio de la siguiente forma:
 >
->     $ git clone https://github.com/rygo/ProyectoFinal_StudyJam.git
+>     $ git clone https://github.com/Gusn8/ProyectoFinal_StudyJam.git
 
 Luego de ello dentro de Android Studio:
 
-* File --> New --> Import Project 
+* File --> New --> Import Project
 * Seleccionas la ruta donde hiciste el `clone` del proyecto.
 * Build --> Rebuild Project
-* Run 
+* Run
 
 Corrida previa
 ---
@@ -51,7 +52,8 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
         <table border="0">
             <tr>
                 <td><img src="img/gif_aplicacion.gif" width="250"></td>
-                </tr>
+
+            </tr>
         </table>
     </center>
 </div>
@@ -62,25 +64,24 @@ Descripción técnica
 En este proyecto de utilizáron los siguientes componentes tanto en el `diseño` como en la `funcionalidad`:
 
 **`Vista:`**
-* LinearLayout (Vertical) para la alineación de las vistas principales.
-* RelativeLayout, para el acomodamiento de la segunda pantalla: SegundaActivity.
+* LinearLayout (Horizontal) para la alineación de las esferas.
+* RelativeLayout, para la alineación de las vistas principales.
 * ToggleButtons, para activar y/o desactivar el sonido en la aplicación.
-.
+* EditTexts, para recabar información acerca de los nombres de las personas.
+* ImageView, para el logo del SplashScreen.
+* Alpha, Rotate y Scale para las animaciones de SplashScreen.
 .
 .
 
 **`Funcionalidad:`**
-* MediaPlayer, para reproducir la canción de fondo de la app.
+* MediaPlayer, para reproducir la canción de villancicos de la app.
+* Animacion, para la animacion de intro.
+
 .
 .
 .
 
-Autor(a)
+Autor
 ---
-Guery Castaño Apaza
-
-Contactos
----
-guerycastano@gmail.com
-
+Gyery Castaño Apaza
 [Github](https://www.github.com/rygo)<br>
