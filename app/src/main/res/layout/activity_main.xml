@@ -59,7 +59,7 @@
         <ToggleButton
             android:id="@+id/avEsfera3"
             android:layout_width="56dp"
-            android:layout_height="99dp"
+            android:layout_height="100dp"
             android:textOn=""
             android:textOff=""
             android:background="@drawable/btn_esfera_azul"
