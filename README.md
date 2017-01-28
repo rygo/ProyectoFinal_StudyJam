@@ -14,35 +14,34 @@ El nombre de la aplicación es: Arbol de Villancicos
 
 Objetivo
 ---
-Listar y detallar todos los lugares que Papa Noel debe visitar.
+reproducir los villancicos mas conocidos.
 
 Caracteristicas
 ---
-* Música de fondo (Con opción activar/desactivar).
-
+* Música de villancicos (Con opción activar/desactivar).
 
 Wireframes
 ---
 Puedes visualizar los Wireframes de este proyecto.
 
-https://ninjamock.com/s/HHDDEE
+https://ninjamock.com/Designer/Workplace/4770620
 
 Compatibilidad
 ---
-Esta aplicación es compatible con versiones de Android 4.2 o superior.
+Esta aplicación es compatible con versiones de Android 4.0.0 o superior.
 
 Uso
 ---------
 Para probar este ejemplo clona este repositorio de la siguiente forma:
 >
->     $ git clone https://github.com/Gusn8/ProyectoFinal_StudyJam.git
+>     $ git clone https://github.com/rygo/ProyectoFinal_StudyJam.git
 
 Luego de ello dentro de Android Studio:
 
-* File --> New --> Import Project
+* File --> New --> Import Project 
 * Seleccionas la ruta donde hiciste el `clone` del proyecto.
 * Build --> Rebuild Project
-* Run
+* Run 
 
 Corrida previa
 ---
@@ -51,9 +50,8 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
     <center>
         <table border="0">
             <tr>
-                <td><img src="img/captura.gif" width="250"></td>
-
-            </tr>
+                <td><img src="img/gif_aplicacion.gif" width="250"></td>
+                </tr>
         </table>
     </center>
 </div>
@@ -64,22 +62,25 @@ Descripción técnica
 En este proyecto de utilizáron los siguientes componentes tanto en el `diseño` como en la `funcionalidad`:
 
 **`Vista:`**
-* LinearLayout (Horizontal) para la alineación de las vistas principales.
+* LinearLayout (Vertical) para la alineación de las vistas principales.
 * RelativeLayout, para el acomodamiento de la segunda pantalla: SegundaActivity.
 * ToggleButtons, para activar y/o desactivar el sonido en la aplicación.
-* EditTexts, para recabar información acerca de los nombres de las personas.
 .
 .
 .
 
 **`Funcionalidad:`**
 * MediaPlayer, para reproducir la canción de fondo de la app.
-* Vibrator, para asignar una vibración en ciertas partes de la app.
-* Ciclo de vida de una Activity, para detectar cuando se coloca en Pausado asi pueda seguir ejecutandose una tarea.
 .
 .
 .
 
-Autor
+Autor(a)
 ---
-Gyery Castaño A[paza
+Guery Castaño Apaza
+
+Contactos
+---
+guerycastano@gmail.com
+
+[Github](https://www.github.com/rygo)<br>
