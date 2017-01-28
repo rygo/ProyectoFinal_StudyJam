@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ar2"
+    tools:context="com.example.dime.arboldevillancicos.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:gravity="center_horizontal">
+        <ToggleButton
+            android:id="@+id/avEstrella"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:textOn=""
+            android:textOff=""
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn_estrella"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.37"
+        android:gravity="center_horizontal">
+        <ToggleButton
+            android:id="@+id/avEsfera"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:textOn=""
+            android:textOff=""
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn_esfera"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+        <ToggleButton
+            android:id="@+id/avEsfera2"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:textOn=""
+            android:textOff=""
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/btn_esfera_tur"
+            android:layout_weight="0.04" />
+        <ToggleButton
+            android:id="@+id/avEsfera3"
+            android:layout_width="56dp"
+            android:layout_height="99dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/btn_esfera_azul"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_weight="0.21" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.67"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+        <ToggleButton
+            android:id="@+id/avEsfera4"
+            android:layout_width="101dp"
+            android:layout_height="94dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/btn_esfera_azul"
+            />
+        <ToggleButton
+            android:id="@+id/avEsfera5"
+            android:layout_width="77dp"
+            android:layout_height="79dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/btn_esfera"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp" />
+        <ToggleButton
+            android:id="@+id/avEsfera6"
+            android:layout_width="57dp"
+            android:layout_height="69dp"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/btn_esfera_tur"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+             />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
