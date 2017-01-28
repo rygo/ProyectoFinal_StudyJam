@@ -81,7 +81,12 @@ En este proyecto de utilizáron los siguientes componentes tanto en el `diseño`
 .
 .
 
-Autor
+Autor(a)
 ---
-Gyery Castaño Apaza
+Guery Castaño Apaza
+
+Contactos
+---
+guerycastano@gmail.com
+
 [Github](https://www.github.com/rygo)<br>
